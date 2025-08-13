@@ -1011,6 +1011,7 @@ nav ul li a:focus .nav-tooltip {
     width: 100%;
     box-sizing: border-box;
     transform: translateY(0);
+    cursor: pointer;
 }
 
 .proje-kart:hover {
