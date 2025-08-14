@@ -7,8 +7,8 @@ const projeDetaylari = {
         durum: 'Geliştirme Aşamasında',
         tarih: '2025-08',
         teknolojiler: ['React Native', 'Node.js', 'MongoDB', 'Socket.io', 'Tailwind CSS', 'Expo', 'TypeScript'],
-        demoLink: '#',
-        githubLink: '#',
+        demoLink: 'javascript:void(0)',
+        githubLink: 'https://github.com/wexbie/',
         ekranGoruntuleri: [
             { src: 'assets/proje/ss/buzzmatch/buzzmatch.jpg', baslik: 'Ana Sayfa' },
         ],
@@ -376,12 +376,12 @@ const projeDetaylari = {
         demoLink: 'https://son-deprem.vercel.app/',
         githubLink: 'https://github.com/wexbie/sonDeprem',
         ekranGoruntuleri: [
-            { src: 'assets/proje/ss/son-deprem/son-deprem.png', baslik: 'Ana Sayfa' },
+            { src: 'assets/proje/ss/sondeprem/sondeprem.png', baslik: 'Ana Sayfa' },
         ],
         icerik: `
             <div class="proje-header">
                 <div class="proje-header-content">
-                    <img src="assets/proje/ss/son-deprem/son-deprem.png" alt="SonDeprem" class="proje-logo">
+                    <img src="assets/proje/son-deprem.jpg" alt="SonDeprem" class="proje-logo">
                     <div class="proje-baslik-alani">
                         <h1 class="proje-baslik">SonDeprem</h1>
                         <p class="proje-aciklama">Gerçek zamanlı deprem bilgilerini takip edebileceğiniz web uygulaması</p>
@@ -454,7 +454,7 @@ const projeDetaylari = {
                 </h2>
                 <div class="ekran-goruntuleri">
                     <div class="ekran-goruntusu">
-                        <img src="assets/proje/ss/son-deprem/son-deprem.png" alt="Son Deprem">
+                        <img src="assets/proje/ss/sondeprem/sondeprem.png" alt="Son Deprem">
                     </div>
                 </div>
             </div>
@@ -718,7 +718,7 @@ const projeDetaylari = {
             </ul>
         `
     },
-    'tecnoblog': {
+    'technoblog': {
         baslik: 'TechnoBlog',
         logo: 'assets/proje/tecnoblog.jpeg',
         aciklama: 'Teknoloji blogu ve içerik yönetim sistemi.',
