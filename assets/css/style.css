@@ -26,6 +26,17 @@
     word-wrap: break-word;
     word-break: break-word;
     -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body {
@@ -44,6 +55,32 @@ body {
     scroll-behavior: smooth;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    touch-action: manipulation;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Mobilde büyütme hareketini engelle */
+html {
+    touch-action: manipulation;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Linkler ve butonlar için metin seçimini engelle */
+a, button, input, textarea, select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
 }
 
 body.loaded {
@@ -1687,5 +1724,35 @@ main, section, div, p, h1, h2, h3, h4, h5, h6 {
     .yetenekler-listesi {
         justify-content: flex-start;
         align-items: flex-start;
+    }
+}
+
+/* Mobilde büyütme hareketini engelle - ek stiller */
+@media (max-width: 768px) {
+    * {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        touch-action: manipulation;
+    }
+    
+    /* Sadece input ve textarea için metin seçimine izin ver */
+    input, textarea {
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;
+    }
+    
+    /* Mobilde pinch zoom'u engelle */
+    html, body {
+        touch-action: manipulation;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
 }

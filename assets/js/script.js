@@ -45,3 +45,29 @@ window.addEventListener('load', () => {
     
     document.body.style.opacity = '1';
 });
+
+document.addEventListener('touchstart', function(event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, { passive: false });
+
+document.addEventListener('gesturestart', function(event) {
+    event.preventDefault();
+}, { passive: false });
+
+document.addEventListener('gesturechange', function(event) {
+    event.preventDefault();
+}, { passive: false });
+
+document.addEventListener('gestureend', function(event) {
+    event.preventDefault();
+}, { passive: false });
+
+document.addEventListener('selectstart', function(event) {
+    event.preventDefault();
+}, { passive: false });
+
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+}, { passive: false });
