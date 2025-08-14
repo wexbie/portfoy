@@ -1,9 +1,136 @@
 const projeDetaylari = {
+    'api-tester': {
+        baslik: 'API Tester',
+        logo: 'assets/proje/api-tester.png',
+        aciklama: 'C# ile geliştirilmiş konsol tabanlı API test aracı.',
+        kategori: 'Backend Tool',
+        durum: 'Tamamlandı',
+        tarih: '2025-08',
+        teknolojiler: ['C#', '.NET 8.0', 'HttpClient', 'Console Application', 'JSON'],
+        demoLink: 'https://github.com/wexbie/api-tester',
+        githubLink: 'https://github.com/wexbie/api-tester',
+        ekranGoruntuleri: [
+            { src: 'assets/proje/ss/apitester/api-tester.png', baslik: 'Konsol Arayüzü' },
+        ],
+        icerik: `
+            <div class="proje-header">
+                <div class="proje-header-content">
+                    <img src="assets/proje/api-tester.png" alt="API Tester" class="proje-logo">
+                    <div class="proje-baslik-alani">
+                        <h1 class="proje-baslik">API Tester</h1>
+                        <p class="proje-aciklama">C# ile geliştirilmiş güvenli ve kullanıcı dostu konsol tabanlı API test aracı</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proje-meta">
+                <div class="proje-meta-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    <span>Tamamlandı</span>
+                </div>
+                <div class="proje-meta-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        <path d="M2 17l10 5 10-5"></path>
+                        <path d="M2 12l10 5 10-5"></path>
+                    </svg>
+                    <span>Ağustos 2025</span>
+                </div>
+                <div class="proje-meta-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                    </svg>
+                    <span>Backend Tool</span>
+                </div>
+            </div>
+
+            <div class="teknoloji-listesi">
+                <span class="teknoloji-etiketi">C#</span>
+                <span class="teknoloji-etiketi">.NET 8.0</span>
+                <span class="teknoloji-etiketi">HttpClient</span>
+                <span class="teknoloji-etiketi">Console Application</span>
+                <span class="teknoloji-etiketi">JSON</span>
+                <span class="teknoloji-etiketi">async/await</span>
+            </div>
+
+            <div class="proje-linkler">
+                <a href="https://github.com/wexbie/api-tester" class="proje-link" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    GitHub
+                </a>
+            </div>
+
+            <div class="ekran-goruntuleri-kutusu">
+                <h2 class="ekran-goruntuleri-baslik">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                        <polyline points="21,15 16,10 5,21"></polyline>
+                    </svg>
+                    Ekran Görüntüsü
+                </h2>
+                <div class="ekran-goruntuleri">
+                    <div class="ekran-goruntusu">
+                        <img src="assets/proje/ss/apitester/api-tester.png" alt="API Tester Konsol Arayüzü">
+                    </div>
+                </div>
+            </div>
+
+            <div class="proje-icerik">
+                <h2>Proje Hakkında</h2>
+                <p>API Tester, geliştiricilerin API endpoint'lerini kolayca test etmelerini sağlayan C# ile geliştirilmiş konsol tabanlı bir araçtır. Kullanıcı dostu arayüzü ve güvenli yapısı ile API testlerini hızlı ve etkili bir şekilde gerçekleştirmenizi sağlar.</p>
+
+                <h3>Özellikler</h3>
+                <ul>
+                    <li><strong>GET ve POST Metodları:</strong> Temel HTTP isteklerini destekler</li>
+                    <li><strong>JSON Veri Gönderme:</strong> POST istekleri için JSON formatında veri gönderebilirsiniz</li>
+                    <li><strong>Detaylı Yanıt Gösterimi:</strong> HTTP durum kodları ve Türkçe açıklamalar</li>
+                    <li><strong>Hata Yönetimi:</strong> Güvenli kullanım için kapsamlı hata yakalama</li>
+                    <li><strong>Çok Satırlı JSON Desteği:</strong> Karmaşık JSON verilerini kolayca girebilirsiniz</li>
+                    <li><strong>Cross-Platform:</strong> Windows, Linux ve macOS'ta çalışır</li>
+                </ul>
+
+                <h3>Teknik Detaylar</h3>
+                <ul>
+                    <li><strong>Dil:</strong> C# 8.0+</li>
+                    <li><strong>Framework:</strong> .NET 8.0</li>
+                    <li><strong>HTTP İstekleri:</strong> HttpClient kullanılarak</li>
+                    <li><strong>Asenkron Programlama:</strong> async/await pattern</li>
+                    <li><strong>JSON İşleme:</strong> Built-in JSON desteği</li>
+                </ul>
+
+                <h3>Kullanım Senaryoları</h3>
+                <ul>
+                    <li>API endpoint'lerinin test edilmesi</li>
+                    <li>Web servislerinin doğrulanması</li>
+                    <li>REST API'lerin geliştirilmesi sırasında test</li>
+                    <li>HTTP isteklerinin debug edilmesi</li>
+                </ul>
+
+                <h3>Kurulum ve Çalıştırma</h3>
+                <pre><code class="language-bash"># Projeyi indirin
+git clone https://github.com/wexbie/api-tester.git
+cd api-tester
+
+# Uygulamayı çalıştırın
+dotnet run</code></pre>
+
+                <p>Bu proje, API geliştirme süreçlerinde test işlemlerini kolaylaştırmak ve geliştiricilerin verimliliğini artırmak amacıyla geliştirilmiştir. MIT lisansı altında açık kaynak olarak yayınlanmıştır.</p>
+            </div>
+        `
+    },
     'buzzmatch': {
         baslik: 'BuzzMatch',
         logo: 'assets/proje/buzzmatch.png',
         aciklama: 'Yeni arkadaşlar edinmek için tasarlanmış sosyal platform.',
-        kategori: 'Sosyal Medya',
+        kategori: 'Mobil Uygulama',
         durum: 'Geliştirme Aşamasında',
         tarih: '2025-08',
         teknolojiler: ['React Native', 'Node.js', 'MongoDB', 'Socket.io', 'Tailwind CSS', 'Expo', 'TypeScript'],
@@ -39,17 +166,17 @@ const projeDetaylari = {
                         <path d="M2 17l10 5 10-5"></path>
                         <path d="M2 12l10 5 10-5"></path>
                     </svg>
-                    <span>Ağustos 2025</span>
+                    <span>Ağustos 2025 - Devam Ediyor</span>
                 </div>
-                <div class="proje-meta-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="9" cy="7" r="4"></circle>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                    </svg>
-                    <span>Sosyal Medya</span>
-                </div>
+                                   <div class="proje-meta-item">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                         <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                         <path d="M12 18h.01"></path>
+                         <path d="M9 6h6"></path>
+                         <path d="M9 10h6"></path>
+                       </svg>
+                       <span>Mobil Uygulama</span>
+                   </div>
             </div>
 
             <div class="teknoloji-listesi">
@@ -63,7 +190,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="#" class="proje-link" target="_blank">
+                <a href="javascript:void(0)" class="proje-link">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -71,7 +198,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="#" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -167,10 +294,10 @@ const projeDetaylari = {
                 </div>
                 <div class="proje-meta-item">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        <polyline points="15 3 21 3 21 9"></polyline>
-                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="M2 12h20"></path>
+                          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
                     <span>Web Uygulaması</span>
                 </div>
             </div>
@@ -187,7 +314,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://zink-web.vercel.app/" class="proje-link" target="_blank">
+                <a href="https://zink-web.vercel.app/" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -195,7 +322,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -228,20 +355,21 @@ const projeDetaylari = {
                     <li>Market, yemek , çarşı ve su siparişleri</li>
                     <li>Responsive tasarım</li>
                     <li>Birden fazla otomasyon</li>
-                    <li>Kullanıcı yönetimi</li>
+                    <li>Kurye paneli</li>
                     <li>Admin paneli</li>
+                    <li>Esnaf paneli</li>
                     <li>Kullanıcı paneli (Siparişler, profil, ayarlar)</li>
                 </ul>
 
                 <h2>Teknik Detaylar</h2>
-                <p>React frontend ve Node.js backend kullanılarak geliştirilmiştir. MongoDB veritabanı ile link verileri güvenli şekilde saklanmaktadır.</p>
+                <p>React ve Node.js kullanılarak geliştirilmiştir. MongoDB veritabanı ile veriler güvenli şekilde saklanmaktadır.</p>
 
                 <h2>Kullanım Senaryoları</h2>
                 <ul>
                     <li>Kullanıcıların siparişlerini görüntüleyebilmeleri</li>
-                    <li>Kullanıcıların profil bilgilerini güncelleyebilmeleri</li>
-                    <li>Kullanıcıların ayarlarını değiştirebilmeleri</li>
-                    <li>Kullanıcıların siparişlerini iptal edebilmeleri</li>
+                    <li>Kurye ve esnaf paneli için siparişleri görüntüleyebilmeleri</li>
+                    <li>Admin paneli için siparişleri görüntüleyebilmeleri</li>
+                    <li>Kullanıcı paneli için siparişleri görüntüleyebilmeleri</li>
                 </ul>
             </div>
         `
@@ -306,7 +434,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://wexbie.pythonanywhere.com/" class="proje-link" target="_blank">
+                <a href="https://wexbie.pythonanywhere.com/" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -314,7 +442,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie/wex-ai-latest" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/wex-ai-latest" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -357,7 +485,7 @@ const projeDetaylari = {
 
                 <h2>AI Modelleri</h2>
                 <ul>
-                    <li>GPT tabanlı metin üretimi</li>
+                    <li>Gemini API tabanlı metin üretimi</li>
                     <li>Stable Diffusion görsel üretimi</li>
                     <li>Text-to-Speech dönüşümü</li>
                     <li>Doğal dil işleme</li>
@@ -370,7 +498,7 @@ const projeDetaylari = {
         logo: 'assets/proje/son-deprem.jpg',
         aciklama: 'Deprem bilgilendirme ve takip uygulaması.',
         kategori: 'Bilgilendirme',
-        durum: 'Canlı',
+        durum: 'Tamamlandı',
         tarih: '2024-09',
         teknolojiler: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS', 'Vercel', 'Kandilli Rasathane API'],
         demoLink: 'https://son-deprem.vercel.app/',
@@ -395,7 +523,7 @@ const projeDetaylari = {
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="12,6 12,12 16,14"></polyline>
                     </svg>
-                    <span>Canlı</span>
+                    <span>Tamamlandı</span>
                 </div>
                 <div class="proje-meta-item">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -427,7 +555,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://son-deprem.vercel.app/" class="proje-link" target="_blank">
+                <a href="https://son-deprem.vercel.app/" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -435,7 +563,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie/sonDeprem" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/sonDeprem" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -539,7 +667,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://pazaryerimyo.vercel.app" class="proje-link" target="_blank">
+                <a href="https://pazaryerimyo.vercel.app" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -547,7 +675,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie/" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -659,7 +787,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://wexbie.com" class="proje-link" target="_blank">
+                <a href="https://wexbie.com" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -667,7 +795,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie/portfoy" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/portfoy" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -701,8 +829,6 @@ const projeDetaylari = {
                     <li>Koyu/açık tema desteği</li>
                     <li>Blog yazıları</li>
                     <li>Proje portföyü</li>
-                    <li>İletişim formu</li>
-                    <li>SEO optimizasyonu</li>
                 </ul>
 
                 <h2>Teknik Detaylar</h2>
@@ -715,6 +841,7 @@ const projeDetaylari = {
                 <li>PWA desteği</li>
                 <li>CMS entegrasyonu</li>
                 <li>Analitik entegrasyonu</li>
+                <li>SEO optimizasyonu</li>
             </ul>
         `
     },
@@ -773,15 +900,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://github.com/wexbie/technoBlog" class="proje-link" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        <polyline points="15 3 21 3 21 9"></polyline>
-                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                    Demo
-                </a>
-                <a href="https://github.com/wexbie/technoBlog" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/technoBlog" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -804,15 +923,13 @@ const projeDetaylari = {
                 </ul>
 
                 <h2>Teknik Detaylar</h2>
-                <p>Proje React frontend ve Node.js backend kullanılarak geliştirilmiştir. MongoDB veritabanı ile veri saklama ve Express.js ile API geliştirme yapılmıştır.</p>
+                <p>Proje PHP ve MySQL kullanılarak geliştirilmiştir. Veritabanında kullanıcılar, yazılar, kategoriler ve yorumlar tabloları bulunmaktadır.</p>
 
                 <h2>Gelecek Geliştirmeler</h2>
                 <ul>
                     <li>Çoklu yazar desteği</li>
                     <li>Gelişmiş arama sistemi</li>
                     <li>E-posta bülteni</li>
-                    <li>Analitik entegrasyonu</li>
-                    <li>Mobil uygulama</li>
                 </ul>
             </div>
         `
@@ -876,7 +993,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://kim-milyoner-olmak-ister-oyunu.vercel.app/" class="proje-link" target="_blank">
+                <a href="https://kim-milyoner-olmak-ister-oyunu.vercel.app/" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -884,7 +1001,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie/kim-milyoner-olmak-ister-oyunu" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/kim-milyoner-olmak-ister-oyunu" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -985,7 +1102,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://netflixv1.vercel.app/" class="proje-link" target="_blank">
+                <a href="https://netflixv1.vercel.app/" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -993,7 +1110,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie/netflixv1" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/netflixv1" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -1024,9 +1141,7 @@ const projeDetaylari = {
                 <h2>Özellikler</h2>
                 <ul>
                     <li>Netflix benzeri arayüz</li>
-                    <li>Film kategorileri</li>
                     <li>Responsive tasarım</li>
-                    <li>Film detay sayfaları</li>
                     <li>Navigasyon menüsü</li>
                     <li>Modern UI/UX</li>
                 </ul>
@@ -1061,7 +1176,7 @@ const projeDetaylari = {
                     <img src="assets/proje/whatsapp.webp" alt="WhatsApp Klonu" class="proje-logo">
                     <div class="proje-baslik-alani">
                         <h1 class="proje-baslik">WhatsApp Klonu</h1>
-                        <p class="proje-aciklama">WhatsApp benzeri mesajlaşma uygulaması</p>
+                        <p class="proje-aciklama">WhatsApp benzeri mesajlaşma web uygulaması</p>
                     </div>
                 </div>
             </div>
@@ -1097,7 +1212,7 @@ const projeDetaylari = {
             </div>
 
             <div class="proje-linkler">
-                <a href="https://whatsapp-clone-desktop.vercel.app/" class="proje-link" target="_blank">
+                <a href="https://whatsapp-clone-desktop.vercel.app/" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                         <polyline points="15 3 21 3 21 9"></polyline>
@@ -1105,7 +1220,7 @@ const projeDetaylari = {
                     </svg>
                     Demo
                 </a>
-                <a href="https://github.com/wexbie/whatsappv1" class="proje-link" target="_blank">
+                <a href="https://github.com/wexbie/whatsappv1" class="proje-link" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
@@ -1115,16 +1230,13 @@ const projeDetaylari = {
 
             <div class="proje-icerik">
                 <h2>Proje Hakkında</h2>
-                <p>WhatsApp Klonu, popüler mesajlaşma uygulaması WhatsApp\'ın web versiyonudur. Kullanıcılar mesaj gönderebilir, sohbet edebilir ve dosya paylaşabilir.</p>
+                <p>WhatsApp Klonu, popüler mesajlaşma uygulaması WhatsApp\'ın web versiyonudur. Tamamen tasarım olarak benzetilmeye çalışılmıştır.</p>
 
                 <h2>Özellikler</h2>
                 <ul>
                     <li>WhatsApp benzeri arayüz</li>
-                    <li>Mesaj gönderme/alma</li>
                     <li>Sohbet listesi</li>
-                    <li>Dosya paylaşımı</li>
                     <li>Responsive tasarım</li>
-                    <li>Gerçek zamanlı mesajlaşma</li>
                 </ul>
 
                 <h2>Teknik Detaylar</h2>
@@ -1132,9 +1244,9 @@ const projeDetaylari = {
 
                 <h2>Gelecek Geliştirmeler</h2>
                 <ul>
-                    <li>Grup sohbetleri</li>
-                    <li>Sesli/görüntülü arama</li>
-                    <li>Durum paylaşımı</li>
+                    <li>Mesaj gönderme/alma</li>
+                    <li>Sohbet listesi</li>
+                    <li>Responsive tasarım</li>
                 </ul>
             </div>
         `
@@ -1154,8 +1266,8 @@ function projeYukle() {
         document.getElementById('proje-icerik').innerHTML = '<h1>Proje bulunamadı</h1>';
         return;
     }
-    
-    document.title = `${proje.baslik} | Proje Detay`;
+
+    document.title = `Portföyüm | ${proje.baslik}`;
     document.getElementById('proje-icerik').innerHTML = proje.icerik;
     Prism.highlightAll();
 }

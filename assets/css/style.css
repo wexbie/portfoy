@@ -64,7 +64,7 @@ body.loaded {
 
 @media (max-width: 480px) {
     body {
-        padding: 3rem 0.8rem 0 0.8rem;
+        padding: 5rem 0.8rem 0 0.8rem;
     }
 }
 
@@ -478,6 +478,7 @@ nav ul li a:focus .nav-tooltip {
     min-height: 135px;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0);
+    animation: scaleIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 
 .proje:hover {
@@ -667,6 +668,7 @@ nav ul li a:focus .nav-tooltip {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transform: scale(1);
     cursor: pointer;
+    animation: scaleIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 
 .yetenek-kategori {
@@ -1467,27 +1469,59 @@ body:hover ::-webkit-scrollbar-thumb {
     animation: scaleIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 
-.proje-kart:nth-child(1) { animation-delay: 0.1s; }
-.proje-kart:nth-child(2) { animation-delay: 0.2s; }
-.proje-kart:nth-child(3) { animation-delay: 0.3s; }
-.proje-kart:nth-child(4) { animation-delay: 0.4s; }
-.proje-kart:nth-child(5) { animation-delay: 0.5s; }
-.proje-kart:nth-child(6) { animation-delay: 0.6s; }
-.proje-kart:nth-child(7) { animation-delay: 0.7s; }
-.proje-kart:nth-child(8) { animation-delay: 0.8s; }
-.proje-kart:nth-child(9) { animation-delay: 0.9s; }
-.proje-kart:nth-child(10) { animation-delay: 1.0s; }
+.proje-kart:nth-child(1) { animation-delay: 0.2s; }
+.proje-kart:nth-child(2) { animation-delay: 0.4s; }
+.proje-kart:nth-child(3) { animation-delay: 0.6s; }
+.proje-kart:nth-child(4) { animation-delay: 0.8s; }
+.proje-kart:nth-child(5) { animation-delay: 1.0s; }
+.proje-kart:nth-child(6) { animation-delay: 1.2s; }
+.proje-kart:nth-child(7) { animation-delay: 1.4s; }
+.proje-kart:nth-child(8) { animation-delay: 1.6s; }
+.proje-kart:nth-child(9) { animation-delay: 1.8s; }
+.proje-kart:nth-child(10) { animation-delay: 2.0s; }
+
+.proje:nth-child(1) { animation-delay: 0.2s; }
+.proje:nth-child(2) { animation-delay: 0.4s; }
+.proje:nth-child(3) { animation-delay: 0.6s; }
+.proje:nth-child(4) { animation-delay: 0.8s; }
+.proje:nth-child(5) { animation-delay: 1.0s; }
+.proje:nth-child(6) { animation-delay: 1.2s; }
+.proje:nth-child(7) { animation-delay: 1.4s; }
+.proje:nth-child(8) { animation-delay: 1.6s; }
+.proje:nth-child(9) { animation-delay: 1.8s; }
+.proje:nth-child(10) { animation-delay: 2.0s; }
+
+.yetenekler-listesi a:nth-child(1) .yetenek { animation-delay: 0.2s; }
+.yetenekler-listesi a:nth-child(2) .yetenek { animation-delay: 0.4s; }
+.yetenekler-listesi a:nth-child(3) .yetenek { animation-delay: 0.6s; }
+.yetenekler-listesi a:nth-child(4) .yetenek { animation-delay: 0.8s; }
+.yetenekler-listesi a:nth-child(5) .yetenek { animation-delay: 1.0s; }
+.yetenekler-listesi a:nth-child(6) .yetenek { animation-delay: 1.2s; }
+.yetenekler-listesi a:nth-child(7) .yetenek { animation-delay: 1.4s; }
+.yetenekler-listesi a:nth-child(8) .yetenek { animation-delay: 1.6s; }
+.yetenekler-listesi a:nth-child(9) .yetenek { animation-delay: 1.8s; }
+.yetenekler-listesi a:nth-child(10) .yetenek { animation-delay: 2.0s; }
+.yetenekler-listesi a:nth-child(11) .yetenek { animation-delay: 2.2s; }
+.yetenekler-listesi a:nth-child(12) .yetenek { animation-delay: 2.4s; }
+.yetenekler-listesi a:nth-child(13) .yetenek { animation-delay: 2.6s; }
+.yetenekler-listesi a:nth-child(14) .yetenek { animation-delay: 2.8s; }
+.yetenekler-listesi a:nth-child(15) .yetenek { animation-delay: 3.0s; }
+.yetenekler-listesi a:nth-child(16) .yetenek { animation-delay: 3.2s; }
+.yetenekler-listesi a:nth-child(17) .yetenek { animation-delay: 3.4s; }
+.yetenekler-listesi a:nth-child(18) .yetenek { animation-delay: 3.6s; }
+.yetenekler-listesi a:nth-child(19) .yetenek { animation-delay: 3.8s; }
+.yetenekler-listesi a:nth-child(20) .yetenek { animation-delay: 4.0s; }
 
 .kart {
     animation: scaleIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 
-.kart:nth-child(1) { animation-delay: 0.1s; }
-.kart:nth-child(2) { animation-delay: 0.2s; }
-.kart:nth-child(3) { animation-delay: 0.3s; }
-.kart:nth-child(4) { animation-delay: 0.4s; }
-.kart:nth-child(5) { animation-delay: 0.5s; }
-.kart:nth-child(6) { animation-delay: 0.6s; }
+.kart:nth-child(1) { animation-delay: 0.2s; }
+.kart:nth-child(2) { animation-delay: 0.4s; }
+.kart:nth-child(3) { animation-delay: 0.6s; }
+.kart:nth-child(4) { animation-delay: 0.8s; }
+.kart:nth-child(5) { animation-delay: 1.0s; }
+.kart:nth-child(6) { animation-delay: 1.2s; }
 
 html {
     scroll-behavior: smooth;

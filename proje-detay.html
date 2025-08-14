@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proje Detay</title>
+    <title>Portföyüm</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css">
     <link rel="stylesheet" href="assets/css/style.css?v=1.18">
     <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
@@ -293,20 +293,89 @@
         }
 
         .proje-icerik code {
-            background: var(--yetenek-arkaplan-renk);
+            background: #2d3748;
             padding: 0.2rem 0.5rem;
             border-radius: 6px;
             font-size: 0.9rem;
-            border: 1px solid var(--cizgi-renk);
+            border: 1px solid #4a5568;
+            color: #e2e8f0;
+            font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', monospace;
         }
 
         .proje-icerik pre {
-            background: var(--yetenek-arkaplan-renk);
+            background: #2d3748;
             border-radius: 12px;
             padding: 1.5rem;
             margin: 1.5rem 0;
-            border: 1px solid var(--cizgi-renk);
+            border: 1px solid #4a5568;
             overflow-x: auto;
+            position: relative;
+        }
+
+        .proje-icerik pre code {
+            background: transparent;
+            padding: 0;
+            border: none;
+            color: #e2e8f0;
+            font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', monospace;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* Prism.js syntax highlighting overrides for project detail page */
+        .proje-icerik .token.comment,
+        .proje-icerik .token.prolog,
+        .proje-icerik .token.doctype,
+        .proje-icerik .token.cdata {
+            color: #a0aec0;
+        }
+
+        .proje-icerik .token.punctuation {
+            color: #e2e8f0;
+        }
+
+        .proje-icerik .token.property,
+        .proje-icerik .token.tag,
+        .proje-icerik .token.boolean,
+        .proje-icerik .token.number,
+        .proje-icerik .token.constant,
+        .proje-icerik .token.symbol,
+        .proje-icerik .token.deleted {
+            color: #fbb6ce;
+        }
+
+        .proje-icerik .token.selector,
+        .proje-icerik .token.attr-name,
+        .proje-icerik .token.string,
+        .proje-icerik .token.char,
+        .proje-icerik .token.builtin,
+        .proje-icerik .token.inserted {
+            color: #9ae6b4;
+        }
+
+        .proje-icerik .token.operator,
+        .proje-icerik .token.entity,
+        .proje-icerik .token.url,
+        .proje-icerik .language-css .token.string,
+        .proje-icerik .style .token.string {
+            color: #90cdf4;
+        }
+
+        .proje-icerik .token.atrule,
+        .proje-icerik .token.attr-value,
+        .proje-icerik .token.keyword {
+            color: #f6ad55;
+        }
+
+        .proje-icerik .token.function,
+        .proje-icerik .token.class-name {
+            color: #d6bcfa;
+        }
+
+        .proje-icerik .token.regex,
+        .proje-icerik .token.important,
+        .proje-icerik .token.variable {
+            color: #fc8181;
         }
 
         .ekran-goruntuleri-kutusu {
@@ -530,6 +599,7 @@
                 font-size: 0.85rem;
             }
         }
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -568,7 +638,7 @@
     </style>
 </head>
 
-<body>
+<body style="padding-bottom: 5rem;">
     <gradyan-ust></gradyan-ust>
     <div class="proje-container">
         <a href="projeler.html" class="geri-don-btn">
